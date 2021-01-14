@@ -1,13 +1,26 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Tour from '../Tour'
+import './tourlist.scss'
+import { tourData } from '../../tourData'
 
-function TourList() {
-  return (
-    <div>
-      Hello from tourList
-      <Tour />
-    </div>
-  )
+export default class TourList extends Component {
+  state = {
+    tours: tourData,
+  }
+
+  removeTour = (id) => {
+    console.log(id)
+  }
+
+  render() {
+    //  console.log(this.state.tours)
+    const { tours } = this.state
+    return (
+      <section className='tourlist'>
+        {tours.map((tour) => (
+          <Tour key={tour.id} tour={tour} removeTour={this.removeTour} />
+        ))}
+      </section>
+    )
+  }
 }
-
-export default TourList
