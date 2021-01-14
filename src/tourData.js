@@ -1,34 +1,34 @@
 export const tourData = [
   {
     id: 1,
-    city: "new york",
-    img: "./img/newyork.jpeg",
-    name: "new york bridge tour",
+    city: 'Samarqand',
+    img: './img/samarqand.jpeg',
+    name: 'Tamerlanes Registan Masjid',
     info:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi"
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi',
   },
   {
     id: 2,
-    city: "paris",
-    img: "./img/paris.jpeg",
-    name: "paris lights tour",
+    city: 'Bukhara',
+    img: './img/bukhara.jpeg',
+    name: 'View over the Old City at Sunset - From The Ark',
     info:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi"
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi',
   },
   {
     id: 3,
-    city: "london",
-    img: "./img/london.jpeg",
-    name: "london royal palace tour",
+    city: 'Tashkent',
+    img: './img/tashkent.jpeg',
+    name: 'Hazrati Imam Complex',
     info:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi"
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi',
   },
   {
     id: 4,
-    city: "tokyo",
-    img: "./img/tokyo.jpeg",
-    name: "tokyo sushi tour",
+    city: 'Rishton',
+    img: './img/rishtan.jpeg',
+    name: 'RISHTON CERAMIC MUSEUM RISHTON',
     info:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi"
-  }
-];
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi',
+  },
+]
