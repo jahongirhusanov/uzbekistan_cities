@@ -27,7 +27,7 @@ export const tourData = [
     id: 4,
     city: 'Rishton',
     img: './img/rishtan.jpeg',
-    name: 'RISHTON CERAMIC MUSEUM RISHTON',
+    name: 'RISHTON CERAMIC MUSEUM',
     info:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi',
   },
